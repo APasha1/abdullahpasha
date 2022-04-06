@@ -13747,6 +13747,9 @@ img,video{
 .justify-start{
     justify-content:flex-start !important
 }
+.cnt2 {
+    padding-left: 50px;
+}
 .justify-end{
     justify-content:flex-end !important
 }
@@ -30374,4 +30377,107 @@ img,video{
 .vertical-group>:not(:last-child){
     margin-bottom:-1px
 }
-/*# sourceMappingURL=shorthand.min.css.map */
+#background-video {
+    width: 1900px;
+    height: 700px;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  #features {
+      background-color: black;
+}
+.navbar1 {
+    transition:  0.5s color ease-out, 0.25s transform ease-out;
+  display: inline-block;
+  position: relative;
+}
+.navbar1:hover {
+    color: white;
+    transform: translate(0, -1px);
+  }
+.navbar1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .navbar1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .und1 {
+    transition:  0.5s color ease-out, 0.25s transform ease-out;
+  display: inline-block;
+  position: relative;
+}
+.und1:hover {
+    color: red;
+    transform: translate(0, -1px);
+  }
+.und1:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 9px;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .und1:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .hoverabd {
+    transition:  0.5s color ease-out, 0.25s transform ease-out;
+  display: inline-block;
+  position: relative;
+}
+.hoverabd:hover {
+    color: #4263cf;
+    transform: translate(0, -1px);
+  }
+.hoverabd:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: #4263cf;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .hoverabd:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+#slider-1 {
+    background-color: #1a1a1a;
+
+}
+
+table { 
+    border: none;
+    width: 100%;
+}
+
