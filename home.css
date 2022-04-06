@@ -52,6 +52,30 @@ button{
 .navbar1:hover {
     color: white;
 }
+#toggle {
+    text-decoration: none;
+  margin-left: 50px;
+  font-family: Soleil, sans-serif;
+  border: 0;
+  border-bottom: 5px solid transparent;
+  color: #f7f7f7;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition:  .8s color ease-out, 0.25s transform ease-out;
+    position: inline-block;
+    position: relative;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    color: black;
+    margin-left: 500px;
+}
+#toggle:hover {
+    background-color: #1a1a1a;
+    color: white;
+}
 .mainlogo {
     text-decoration: none;
     font-family: Soleil, sans-serif;
@@ -30469,13 +30493,19 @@ img,video{
     transform-origin: bottom left;
   }
 
-
+  body {
+    opacity: 0;
+    transition: opacity 5s;
+}
 
 #slider-1 {
     background-color: #1a1a1a;
 
 }
+.dark1 { 
+    color: black;
 
+}
 table { 
     border: none;
     width: 100%;

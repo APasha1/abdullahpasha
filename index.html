@@ -10,9 +10,11 @@
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 </head>
 
-<body class="bg-black muli">
+<body  id="body" class="bg-black muli"
+onload="document.body.style.opacity='1'" >
     <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
         <div class="flex justify-between">
             <a href="#" class="flex items-center p-2 mr-4 no-underline mainlogo">
@@ -136,44 +138,23 @@
         <div class="w-100pc md-w-70pc mx-auto py-10">
             <h2 class="white fs-l2 md-fs-xl1 fw-900 lh-2">
                 Premium Service, <span class="und1"> INSANE</span> Websites development! </h2>
+                <h2  style="display: none" class="white fs-l2 md-fs-xl1 fw-900 lh-2">
+                   We offer up to 5 different templates of your own <span class="und1">choosing!</span> </h2>
         </div>
+        <button id="toggle">What else do we offer?</button>
+<script>
+    $( "button" ).click(function() {
+      $( "h2" ).toggle("slow");
+    });
+    </script>
+     
     </section>
-
-    <section class="py-l10">
-        <div class="flex flex-column md-flex-row md-w-80pc mx-auto">
-            <div class="w-100pc md-w-50pc">
-                <div class="br-8 p-5 m-5 bg-indigo-lightest-10 pointer hover-scale-up-1 ease-300">
-                    <div class="inline-block bg-indigo indigo-lightest br-3 px-4 py-1 mb-10 fs-s4 uppercase">
-                        individual</div>
-                    <div class="indigo-lightest fw-600 fs-m1">Lorem ipsum <span class="opacity-30"> dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</span> </div>
-                    <a href="#" class="mt-10 button bg-black fs-s3 white no-underline">Read</a>
-                </div>
-            </div>
-            <div class="w-100pc md-w-50pc">
-                <div class="br-8 p-5 m-5 bg-indigo-lightest-10  pointer hover-scale-up-1 ease-300">
-                    <div class="inline-block bg-indigo indigo-lightest br-3 px-4 py-1 mb-10 fs-s4 uppercase">
-                        team</div>
-                    <div class="indigo-lightest fw-600 fs-m1">Lorem ipsum <span class="opacity-30"> dolor sit amet,
-                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua.</span> </div>
-                    <a href="#" class="mt-10 button bg-black fs-s3 white no-underline">Read</a>
-
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- pricing -->
     <section id="pricing">
         <div class="p-10 flex flex-wrap">
             <div class="w-100pc md-w-50pc">
                 <div class="p-5">
-                    <h4 class="white fw-800 fs-l3 mb-5">Lorem Pricing</h4>
-                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    <h4 class="white fw-800 fs-l3 mb-5">Cheap Pricing!</h4>
+                    <div class="indigo-lightest fw-600 fs-m1 opacity-50">This is cheap ikr, this pricing is perfect to scam yall, i found this perfect!.</div>
                     <h4 class="white fw-600 fs-m2 mt-10">Companies trusts us.</h4>
                     <div class="flex indigo-lightest opacity-50">
                         <div class="w-25pc">
@@ -252,7 +233,7 @@
             <div class="w-100pc md-w-25pc">
                 <div class="m-3 p-5 br-8 bg-white overflow-hidden">
                     <div class="p-3">
-                        <h3 class="indigo">Pro</h3>
+                        <h3 class="dark1">Pro</h3>
                         <div class="black flex items-center">$<span class="fs-l5 lh-1">99.99</span>/mo</div>
                     </div>
                     <div class="p-3 black fw-400 fs-s1 lh-5">
@@ -289,10 +270,10 @@
                     <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">Liked the service, service was top notch and on time </p>
                     <div class="flex items-center my-5">
                         <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
-                                src="https://randomuser.me/api/portraits/men/44.jpg" alt=""></div>
+                                src="https://randomuser.me/api/portraits/women/33.jpg" alt=""></div>
                         <div class="ml-4 fs-s1">
-                            <div class="indigo-lightest">John Doe</div>
-                            <div class="indigo-lightest opacity-20">Product Manager, NYC</div>
+                            <div class="indigo-lightest">Isabel payares</div>
+                            <div class="indigo-lightest opacity-20">Taco Truck owner, NYC</div>
                         </div>
                     </div>
                 </div>
@@ -305,8 +286,8 @@
                         <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
                                 src="https://randomuser.me/api/portraits/men/45.jpg" alt=""></div>
                         <div class="ml-4 fs-s1">
-                            <div class="indigo-lightest">Juan Mamasita</div>
-                            <div class="indigo-lightest opacity-20">Product Manager, Georgia</div>
+                            <div class="indigo-lightest">Aaron Monterroso</div>
+                            <div class="indigo-lightest opacity-20">Gardener, Georgia</div>
                         </div>
                     </div>
                 </div>
@@ -320,7 +301,7 @@
                                 src="https://randomuser.me/api/portraits/men/46.jpg" alt=""></div>
                         <div class="ml-4 fs-s1">
                             <div class="indigo-lightest">Mohammeth Seck</div>
-                            <div class="indigo-lightest opacity-20">Front End DEv, California</div>
+                            <div class="indigo-lightest opacity-20">Front End DEV, California</div>
                         </div>
                     </div>
                 </div>
@@ -328,7 +309,7 @@
             <div class="px-3">
                 <div class="p-8 br-8 bg-indigo-lightest-10 relative">
                     <span class="fs-l5 lh-1 white opacity-10 absolute top-0 z--1">&#10077;</span>
-                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">Would Reccomend his service top notch </p>
+                    <p class="fw-600 fs-m1 indigo-lightest opacity-80 italic ls-wider">Would Reccomend his service top notch, gave him a few massages while at it. </p>
                     <div class="flex items-center my-5">
                         <div class="block br-round border bc-black bw-4 w-l3 h-l3"><img class="br-round"
                                 src="https://randomuser.me/api/portraits/men/47.jpg" alt="..."></div>
