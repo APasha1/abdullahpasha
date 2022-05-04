@@ -49,6 +49,9 @@ button{
   display: inline-block;
   position: relative;
 }
+.btnanim {
+    transition:  0.4s opacity ease-out;
+}
 .navbar1:hover {
     color: white;
 }
@@ -30514,3 +30517,10 @@ table {
     width: 100%;
 }
 
+#h22 {
+    font-weight: 300;
+}
+
+#about {padding-top: 50px;
+padding-left: 50px;
+width: 1000px;}
