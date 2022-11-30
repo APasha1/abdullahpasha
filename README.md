@@ -1,5 +1,4 @@
 # Portfolio Website
-This is a portfolio template website/meme
 
 ## Credit
 
